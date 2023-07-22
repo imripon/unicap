@@ -30,8 +30,28 @@ async pay(){
   }
 ```
 ### Interfaces
-
-
+```bash
+interface Result{
+  status:string,
+  amount:string,
+  txnId:string,
+  txnRef:string,
+  responseCode:string,
+  approvalRefNo:string
+}
+```
+After 
+```bash
+.then(res=>{
+    console.log(res)
+    alert(JSON.stringify(res))
+  })
+// you can call directly
+.then(res=>{
+    alert(JSON.stringify(res.status))
+    .......
+  })
+```
 #### Transaction
 
 | Prop                | Type                | Value                            |
