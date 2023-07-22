@@ -13,10 +13,10 @@ export class HomePage {
   constructor() {}
  async pay(){
  await Upicap.startPayment({
-    vpa:'squardellallp@sbi',
+    vpa:'',
     amount:this.amount,
-    merchant_code:'5817',
-    name:'Squardella Gaming Llp',
+    merchant_code:'',
+    name:'',
     trans_id:this.transId
   }).then(res=>{
     console.log(res)
