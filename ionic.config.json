@@ -1,0 +1,7 @@
+{
+  "name": "upi pay",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
