@@ -34,10 +34,10 @@ async pay(){
 
 #### Transaction
 
-| Prop                | Type                |
-| ------------------- | ------------------- |
-| **`vpa`**           | <code>string</code> |
-| **`amount`**        | <code>string</code> |
-| **`name`**          | <code>string</code> |
-| **`trans_id`**      | <code>string</code> |
-| **`merchant_code`** | <code>string</code> |
+| Prop                | Type                | Value                            |
+| ------------------- | ------------------- | ---------------------------------|
+| **`vpa`**           | <code>string</code> | <code>upiname@upi</code>         |
+| **`amount`**        | <code>string</code> | <code>10.00</code>               |
+| **`name`**          | <code>string</code> |                                  |
+| **`trans_id`**      | <code>string</code> | <code>Id should be unique</code> |
+| **`merchant_code`** | <code>string</code> | <code>XXXX</code>                |
