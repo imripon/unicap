@@ -20,6 +20,8 @@ async pay(){
   }).then(res=>{
     console.log(res)
     alert(JSON.stringify(res))
-  })
+  }).catch(err=>{
+    console.log(err.message)
+})
   }
 ```
