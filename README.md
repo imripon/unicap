@@ -29,3 +29,15 @@ async pay(){
 })
   }
 ```
+### Interfaces
+
+
+#### Transaction
+
+| Prop                | Type                |
+| ------------------- | ------------------- |
+| **`vpa`**           | <code>string</code> |
+| **`amount`**        | <code>string</code> |
+| **`name`**          | <code>string</code> |
+| **`trans_id`**      | <code>string</code> |
+| **`merchant_code`** | <code>string</code> |
