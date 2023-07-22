@@ -1,14 +1,15 @@
 # unicap
 Native android Capacitor Plugins for Ionic
 
-##
-This an Example for using Ts Angular Ionic 
-####
-find more 
+## This an Example for using Ts Angular Ionic 
+#### find more on
 https://www.npmjs.com/package/upi-intent
 
-###
-Use in .ts
+### Import in Ionic
+```bash
+import {Upicap} from 'upi-intent';
+```
+### Use in .ts
 ```bash
 async pay(){
  await Upicap.startPayment({
