@@ -1,5 +1,6 @@
 # unicap
-Native android Capacitor Plugins for Ionic
+Native android Capacitor Plugins for Ionic.
+##### Note: Not workig on IOS
 
 ## This an Example for using Ts Angular Ionic 
 #### find more on
