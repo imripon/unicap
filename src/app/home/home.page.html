@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-input [(ngModel)]="vpa_id" placeholder="vpa id"></ion-input>
+    <ion-input [(ngModel)]="transId" placeholder="Transction id"></ion-input>
+    <ion-input [(ngModel)]="amount" placeholder="amount"></ion-input>
+    <ion-button (click)="pay()">Pay</ion-button>
+  </div>
+</ion-content>
