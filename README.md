@@ -30,6 +30,9 @@ async pay(){
 })
   }
 ```
+##### Find your merchant codes 
+https://www.npci.org.in/what-we-do/rupay/merchant-category-code
+
 ### Interfaces
 ```bash
 interface Result{
